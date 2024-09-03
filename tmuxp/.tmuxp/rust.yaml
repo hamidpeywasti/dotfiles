@@ -1,0 +1,11 @@
+session_name: Rust
+start_directory: ~/Learning/rust-comperhensive/
+windows:
+  - windows_name: Rust Comprehensive
+    window_index: 1
+    layout: main-horizontal
+    options:
+      main-pane-height: 70%
+    panes:
+      - nvim src/main.rs 
+      -

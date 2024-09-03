@@ -1,0 +1,9 @@
+session_name: my_session
+windows:
+  - window_name: main
+    layout: even-vertical
+    panes:
+      - shell_command:
+          - echo "This is pane 1"      
+      - shell_command:
+          - tmux clock-mode
