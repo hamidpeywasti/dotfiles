@@ -69,4 +69,4 @@ export ATAC_MAIN_DIR="$HOME/Websites/ATAC/"
 # Rust environment setup
 [ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 
-figlet -s  $(fastfetch -s os --format json | jq -r '.[0].result.name') | lolcat -S 1
+# figlet -s  $(fastfetch -s os --format json | jq -r '.[0].result.name') | lolcat -S 1
