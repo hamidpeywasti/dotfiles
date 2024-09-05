@@ -11,5 +11,7 @@ normal.family = "Cascadia Code NF"
 bold.family = "Cascadia Code NF"
 italic.family = "Cascadia Code NF"
 
-[shell]
-program = "/usr/bin/fish"
+[terminal]
+
+[terminal.shell]
+program = "/usr/local/bin/fish"
