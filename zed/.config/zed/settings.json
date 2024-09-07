@@ -4,25 +4,35 @@
 // documentation: https://zed.dev/docs/configuring-zed
 //
 // To see all of Zed's default settings without changing your
-// custom settings, run the `zed: Open Default Settings` command
-// from the command palette
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "assistant": {
+    "default_model": {
+      "provider": "openai",
+      "model": "o3-mini"
+    },
+    "version": "2"
+  },
   "features": {
-    "inline_completion_provider": "none"
+    "edit_prediction_provider": "zed"
   },
-  "telemetry": {
-    "metrics": true
-  },
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "buffer_font_family": "FiraCode Nerd Font",
-  "buffer_font_features": {
-    "calt": true,
-    "liga": true
-  },
+  "show_user_picture": false,
+  "ui_font_family": "Adwaita Sans",
+  "ui_font_size": 18,
+  "buffer_font_family": "Cascadia Code NF",
+  "buffer_font_size": 18,
   "theme": {
-    "mode": "system",
-    "light": "Catppuccin Frappé",
-    "dark": "One Dark"
+    "mode": "dark",
+    "light": "Catppuccin Mocha",
+    "dark": "Catppuccin Macchiato"
+  },
+  "terminal": {
+    "shell": {
+      "program": "zsh"
+    }
+  },
+  "files.associations": {
+    "*.html5": "php"
   }
 }
