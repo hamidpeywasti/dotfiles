@@ -1,0 +1,10 @@
+-- Custom key mappings
+local map = vim.api.nvim_set_keymap
+local opts = { noremap = true, silent = true }
+
+-- Map <leader>ff to open Telescope file finder
+map("n", "<leader>ff", ":Telescope find_files<CR>", opts)
+map("n", "<leader>fd", ":Telescope fd<CR>", opts)
+
+-- Map <leader>fg to open Telescope live grep
+map("n", "<leader>fg", ":Telescope live_grep<CR>", opts)
