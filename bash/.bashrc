@@ -12,6 +12,7 @@ add_to_path "$HOME/bin"
 add_to_path "/opt/tx"
 add_to_path "$HOME/go/bin"
 add_to_path "$HOME/.deno/bin"
+add_to_path "$HOME/.npm-global/bin"
 
 export PATH
 
