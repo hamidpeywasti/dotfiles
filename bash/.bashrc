@@ -71,3 +71,8 @@ export ATAC_MAIN_DIR="$HOME/Websites/ATAC/"
 [ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 
 # figlet -s  $(fastfetch -s os --format json | jq -r '.[0].result.name') | lolcat -S 1
+eval "$(zoxide init bash)"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
