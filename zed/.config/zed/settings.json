@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "icon_theme": "Colored Zed Icons Theme Dark",
   "assistant": {
     "default_model": {
       "provider": "openai",
@@ -18,14 +19,14 @@
     "edit_prediction_provider": "zed"
   },
   "show_user_picture": false,
-  "ui_font_family": "Adwaita Sans",
+  "ui_font_family": "Monaspace Argon",
   "ui_font_size": 18,
-  "buffer_font_family": "Cascadia Code NF",
-  "buffer_font_size": 18,
+  "buffer_font_family": "FiraCode Nerd Font",
+  "buffer_font_size": 16,
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Mocha",
-    "dark": "Catppuccin Macchiato"
+    "dark": "Catppuccin Mocha"
   },
   "terminal": {
     "shell": {
@@ -34,5 +35,7 @@
   },
   "files.associations": {
     "*.html5": "php"
-  }
+  },
+  "vim_mode": false,
+  "remove_trailing_whitespace_on_save": true
 }
