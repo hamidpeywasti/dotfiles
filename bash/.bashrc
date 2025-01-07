@@ -13,6 +13,7 @@ add_to_path "/opt/tx"
 add_to_path "$HOME/go/bin"
 add_to_path "$HOME/.deno/bin"
 add_to_path "$HOME/.npm-global/bin"
+add_to_path "$HOME/.zig"
 
 export PATH
 
