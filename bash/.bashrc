@@ -48,10 +48,7 @@ export LESS_TERMCAP_ZV=$'\e[35m'       # Visual bell (purple)
 export LESS_TERMCAP_ZO=$'\e[36m'       # Start of text (cyan)
 export LESS_TERMCAP_ZW=$'\e[36m'       # Blank line (cyan)
 export GROFF_NO_SGR=1                  # Disable SGR for bold/underline on some terminals
-export LESS='-R'                       # Keep color codes intact
-
-# Enable less to show colors for man pages
-export LESS='-R --use-color -Dd+r$Du+b$'
+export LESS='-R --use-color'           # Keep color codes intact
 
 # Aliases
 alias wttr="curl wttr.in/tabriz"
