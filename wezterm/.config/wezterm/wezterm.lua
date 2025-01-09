@@ -9,7 +9,8 @@ local config = wezterm.config_builder()
 -- For example, changing the color scheme:
 --config.color_scheme = 'Apprentice (base16)'
 
-config.font = wezterm.font("FiraCode Nerd Font")
+config.font = wezterm.font("Monaspace Neon Frozen")
+
 config.font_size = 12.0
 
 config.enable_tab_bar = false
