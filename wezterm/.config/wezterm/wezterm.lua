@@ -22,7 +22,11 @@ config.window_padding = {
 	bottom = 0,
 }
 
-config.default_prog = {"/usr/bin/zsh"}
+config.window_background_opacity = 0.95
+
+-- config.window_decorations = "TITLE"
+
+config.default_prog = { "/usr/local/bin/fish" }
 
 -- and finally, return the configuration to wezterm
 return config
