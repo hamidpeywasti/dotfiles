@@ -1,15 +1,29 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    -- css = { "prettier" },
-    -- html = { "prettier" },
+    javascript = { "biome" },
+    typescript = { "biome" },
+    rust = { "rustfmt" },
+    go = { "gofmt" },
+    c = { "clang-format" },
+    css = { "biome" },
+    html = { "prettier" },
+    yaml = { "biome" },
   },
 
-  -- format_on_save = {
-  --   -- These options will be passed to conform.format()
-  --   timeout_ms = 500,
-  --   lsp_fallback = true,
-  -- },
+  formatters = {
+    biome = {
+      command = "biome",
+      args = { "format", "--stdin-file-path", "$FILENAME", "--fix"},
+      stdin = true,
+    },
+  },
+
+  format_on_save = {
+    -- These options will be passed to conform.format()
+    timeout_ms = 10000,
+    lsp_fallback = true,
+  },
 }
 
 return options
