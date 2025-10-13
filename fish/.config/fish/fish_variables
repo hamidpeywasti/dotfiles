@@ -40,3 +40,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
+SETUVAR fish_user_paths:/home/hamid/\x2eopencode/bin\x1e/home/hamid/\x2ezig\x1e/home/hamid/\x2enpm\x2dglobal/bin\x1e/home/hamid/\x2edeno/bin\x1e/home/hamid/go/bin\x1e/opt/tx\x1e/home/hamid/\x2elocal/bin\x1e/home/hamid/\x2ecargo/bin
