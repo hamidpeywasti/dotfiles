@@ -22,3 +22,6 @@ setopt share_history
 
 autoload -U compinit
 compinit
+
+# opencode
+export PATH=/home/hamid/.opencode/bin:$PATH
