@@ -22,6 +22,9 @@ config.window_padding = {
 	bottom = 0,
 }
 
+config.default_cursor_style = "BlinkingBar"
+-- config.cursor_blink_rate = 800
+
 config.window_background_opacity = 0.95
 
 -- config.window_decorations = "TITLE"
