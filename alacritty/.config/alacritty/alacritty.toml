@@ -12,4 +12,14 @@ normal.family = "FiraCode Nerd Font"
 [terminal]
 
 [terminal.shell]
-program = "/usr/local/bin/fish"
+program = "/usr/bin/zsh"
+args = ["-l"]
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"  # Options: "Never", "Off", "On", "Always"
+
+[cursor]
+blink_interval = 750        # milliseconds
+blink_timeout = 0           # 0 = never stop blinking
+unfocused_hollow = true     # Hollow when unfocused
