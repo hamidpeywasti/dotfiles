@@ -1,14 +1,14 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    javascript = { "biome" },
-    typescript = { "biome" },
+    javascript = { "prettier" },
+    typescript = { "prettier" },
     rust = { "rustfmt" },
     go = { "gofmt" },
     c = { "clang-format" },
-    css = { "biome" },
+    css = { "prettier" },
     html = { "prettier" },
-    yaml = { "biome" },
+    yaml = { "prettier" },
   },
 
   formatters = {
