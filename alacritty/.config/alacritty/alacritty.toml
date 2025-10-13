@@ -9,8 +9,6 @@ size = 12
 normal.family = "FiraCode Nerd Font"
 
 
-[terminal]
-
 [terminal.shell]
 program = "/usr/bin/zsh"
 args = ["-l"]
