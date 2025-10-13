@@ -29,7 +29,7 @@ config.window_background_opacity = 0.95
 
 -- config.window_decorations = "TITLE"
 
-config.default_prog = { "/usr/local/bin/fish" }
+config.default_prog = { "bash" }
 
 -- and finally, return the configuration to wezterm
 return config
