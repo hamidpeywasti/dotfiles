@@ -14,6 +14,7 @@ add_to_path "$HOME/go/bin"
 add_to_path "$HOME/.deno/bin"
 add_to_path "$HOME/.npm-global/bin"
 add_to_path "$HOME/.zig"
+add_to_path "$HOME/.opencode/bin"
 
 export PATH
 
