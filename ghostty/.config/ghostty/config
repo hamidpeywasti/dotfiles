@@ -42,4 +42,4 @@ font-family = Iosevka
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 command = /usr/bin/fish
-# theme = dracula
+theme = catppuccin-mocha
