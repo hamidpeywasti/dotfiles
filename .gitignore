@@ -3,3 +3,6 @@
 
 # Ignore history files
 history
+
+lazy-lock.json
+
