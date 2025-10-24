@@ -9,7 +9,7 @@ Plug 'preservim/nerdtree'                         " File explorer
 " --- LSP & coding tools ---
 Plug 'prabirshrestha/vim-lsp'                     " LSP client
 Plug 'mattn/vim-lsp-settings'                     " Auto LSP configs
-Plug 'prettier/vim-prettier', { 'do': 'npm install', 'for': ['javascript', 'typescript', 'css', 'json', 'html'] }
+Plug 'prettier/vim-prettier'
 
 " --- tmux integration ---
 Plug 'christoomey/vim-tmux-navigator'             " Seamless navigation
