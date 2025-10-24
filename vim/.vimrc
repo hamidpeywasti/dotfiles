@@ -1,3 +1,26 @@
+call plug#begin()
+
+" --- Core utilities ---
+Plug 'tpope/vim-fugitive'                         " Git integration
+Plug 'junegunn/fzf.vim'                           " FZF Vim integration
+Plug 'itchyny/lightline.vim'                      " Lightweight statusline
+Plug 'preservim/nerdtree'                         " File explorer
+
+" --- LSP & coding tools ---
+Plug 'prabirshrestha/vim-lsp'                     " LSP client
+Plug 'mattn/vim-lsp-settings'                     " Auto LSP configs
+Plug 'prettier/vim-prettier', { 'do': 'npm install', 'for': ['javascript', 'typescript', 'css', 'json', 'html'] }
+
+" --- tmux integration ---
+Plug 'christoomey/vim-tmux-navigator'             " Seamless navigation
+
+" --- Themes ---
+Plug 'ayu-theme/ayu-vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+
+call plug#end()
+
 " Don't try to be vi compatible
 set nocompatible
 
